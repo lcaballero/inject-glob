@@ -6,7 +6,7 @@ async     = require('async')
 
 
 defaults =
-  globs         : [ '**/*.js', '**/*.coffee' ]
+  globs         : [ '**/*.js', '**/*.coffee', '**/*.json' ]
   cwd           : '.'
   interceptName : (f) -> injectName(f)
   aggregateOn   : ->
@@ -56,8 +56,8 @@ apply = (opts, cb) ->
       tree.resolve(cb)
   )
 
-
 module.exports = _.defaults(apply, {
-  injectName: injectName
-  register: register
+  injectName  : injectName
+  register    : register
+  defaults    : defaults
 })

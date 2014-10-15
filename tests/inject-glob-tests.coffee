@@ -48,13 +48,16 @@ describe 'BurntSushi =>', ->
   describe 'find s4 =>', ->
 
     it 'should find all dependencies',  (done) ->
-      opts = cwd : 'files/sources/s4', globs : ['**/*.coffee']
+      opts =
+        cwd   : 'files/sources/s4',
+        globs : ['**/*.coffee']
 
       agg(opts, (err, resolved) ->
         expect(err).to.not.exist
         expect(resolved).to.have.keys(['HomeController', 'cache', 'User', 'Database'])
         done()
       )
+
 
   describe 'find s1 =>', ->
 
