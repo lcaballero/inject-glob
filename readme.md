@@ -3,7 +3,7 @@
 # Introduction
 
 `inject-glob` is a simple wrapper around [nject][nject] and [glob][glob].
-[Glob][glob] provides a mechanism to traverse a directory structure and
+[glob][glob] provides a mechanism to traverse a directory structure and
 'find' files for injection to create a [dependency injection][di] tree.
 
 ## Installation
@@ -77,3 +77,4 @@ notice, or any other, from this software.
 [EPL-1]: http://opensource.org/licenses/eclipse-1.0.txt
 [nject]: https://github.com/autoric/nject
 [di]: http://en.wikipedia.org/wiki/Dependency_injection
+[glob]: https://github.com/isaacs/node-glob
