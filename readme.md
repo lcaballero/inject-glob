@@ -2,9 +2,9 @@
 
 # Introduction
 
-`inject-glob` is simple wrapper around [nject][nject] and [glob][glob] which
-provides a mechanism traverses a directory structure and creates a [dependency
-injection][di] tree.
+`inject-glob` is a simple wrapper around [nject][nject] and [glob][glob].
+[Glob][glob] provides a mechanism to traverse a directory structure and
+'find' files for injection to create a [dependency injection][di] tree.
 
 ## Installation
 
@@ -15,8 +15,8 @@ injection][di] tree.
 ## Usage
 
 This is the basic usage.  In this usage, where **all** options are defaulted,
-then names are derived from file names; no aggregation of any of the injectables
-is done, and default globs are used.
+the names are derived from file names, no aggregation of any of the
+injectables is done, and the default globs are used.
 
 ```
 path  = require('path')
