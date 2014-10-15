@@ -1,15 +1,15 @@
-[![Build Status](https://travis-ci.org/lcaballero/inject-traverse.svg?branch=master)](https://travis-ci.org/) [![NPM version](https://badge.fury.io/js/inject-traverse.svg)](http://badge.fury.io/js/inject-traverse)
+[![Build Status](https://travis-ci.org/lcaballero/inject-glob.svg?branch=master)](https://travis-ci.org/) [![NPM version](https://badge.fury.io/js/inject-glob.svg)](http://badge.fury.io/js/inject-glob)
 
 # Introduction
 
-`inject-traverse` is simple wrapper around [nject][nject] and [glob][glob] which
+`inject-glob` is simple wrapper around [nject][nject] and [glob][glob] which
 provides a mechanism traverses a directory structure and creates a [dependency
 injection][di] tree.
 
 ## Installation
 
 ```
-%> npm install inject-traverse --save
+%> npm install inject-glob --save
 ```
 
 ## Usage
