@@ -1,6 +1,6 @@
 {
   "name": "inject-glob",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Creates a 'simple' dependency injection tree from a directory structure.",
   "main": "index.js",
   "keywords": [
